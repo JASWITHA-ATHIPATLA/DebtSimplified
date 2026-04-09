@@ -5,6 +5,7 @@ import GroupModal from '../components/GroupModal';
 import { getName } from '../utils/helpers';
 import './Groups.css';
 
+
 export default function Groups() {
   const { state, dispatch } = useContext(AppContext);
   const [modal, setModal] = useState(null);

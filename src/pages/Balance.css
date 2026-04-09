@@ -1,0 +1,15 @@
+.settle-c {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1rem 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 0.75rem;
+  box-shadow: var(--shadow);
+  transition: border-color 0.2s;
+}
+.settle-c:hover {
+  border-color: var(--brand);
+}

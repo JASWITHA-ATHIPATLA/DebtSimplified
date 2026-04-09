@@ -1,0 +1,50 @@
+.friends-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.friends-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.fc {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.1rem 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.2s;
+  box-shadow: var(--shadow);
+}
+.fc:hover {
+  border-color: var(--brand);
+  transform: translateY(-1px);
+}
+.fc-info {
+  flex: 1;
+}
+.fc-name {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--text);
+}
+.fc-email {
+  font-size: 12.5px;
+  color: var(--text3);
+}
+.fc-balance {
+  text-align: right;
+}
+.settled {
+  font-size: 13px;
+  color: var(--text3);
+}
+.balance-hint {
+  font-size: 11px;
+  color: var(--text3);
+  margin-top: 2px;
+}

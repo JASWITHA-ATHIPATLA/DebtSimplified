@@ -1,0 +1,34 @@
+.av {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  flex-shrink: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.av-xs {
+  width: 24px;
+  height: 24px;
+  font-size: 9px;
+}
+.av-sm {
+  width: 30px;
+  height: 30px;
+  font-size: 11px;
+}
+.av-md {
+  width: 38px;
+  height: 38px;
+  font-size: 14px;
+}
+.av-lg {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+}
+.av-xl {
+  width: 60px;
+  height: 60px;
+  font-size: 22px;
+}

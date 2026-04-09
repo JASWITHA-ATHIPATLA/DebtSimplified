@@ -1,0 +1,35 @@
+.emoji-grid {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.emoji-option {
+  font-size: 20px;
+  padding: 5px 9px;
+  border: 2px solid var(--border);
+  border-radius: 9px;
+  background: transparent;
+  cursor: pointer;
+}
+.emoji-option.active {
+  border-color: var(--brand);
+  background: rgba(0, 179, 126, 0.1);
+}
+.add-member-row {
+  display: flex;
+  gap: 8px;
+}
+.members-list {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+.member-badge {
+  font-size: 12px;
+  padding: 5px 10px;
+}
+.remove-member {
+  cursor: pointer;
+  margin-left: 4px;
+}

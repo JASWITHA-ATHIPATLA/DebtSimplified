@@ -1,0 +1,84 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 64px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  z-index: 500;
+  transition: background 0.3s, border-color 0.3s;
+}
+.dk .navbar {
+  background: rgba(15, 21, 32, 0.9);
+}
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.nav-logo {
+  width: 36px;
+  height: 36px;
+  background: var(--brand);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  box-shadow: 0 0 20px var(--brandglow);
+}
+.nav-brand-name {
+  font-weight: 800;
+  font-size: 18px;
+  background: linear-gradient(135deg, var(--brand), #00d4aa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.nav-link {
+  padding: 8px 16px;
+  border-radius: 9px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: var(--text2);
+  transition: all 0.15s;
+}
+.nav-link:hover {
+  color: var(--text);
+  background: var(--surface2);
+}
+.nav-cta {
+  padding: 8px 20px;
+  background: var(--brand);
+  color: #fff;
+  border-radius: 9px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s;
+  box-shadow: 0 4px 14px var(--brandglow);
+}
+.nav-cta:hover {
+  background: var(--brand2);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px var(--brandglow);
+}

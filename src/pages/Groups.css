@@ -1,0 +1,52 @@
+.gc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+.gc {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1.25rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: var(--shadow);
+}
+.gc:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow2);
+  border-color: var(--brand);
+}
+.gc-emoji {
+  font-size: 36px;
+  margin-bottom: 0.75rem;
+}
+.gc-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 0.3rem;
+}
+.gc-meta {
+  font-size: 13px;
+  color: var(--text3);
+  margin-bottom: 0.75rem;
+}
+.gc-bar {
+  height: 4px;
+  background: var(--surface3);
+  border-radius: 99px;
+  overflow: hidden;
+  margin-bottom: 0.75rem;
+}
+.gc-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--brand), #00d4aa);
+  border-radius: 99px;
+}
+.avt-row {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}

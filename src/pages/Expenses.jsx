@@ -6,6 +6,7 @@ import { getName } from '../utils/helpers';
 import AddExpenseModal from '../components/AddExpenseModal';
 import './Expenses.css';
 
+
 export default function Expenses() {
   const { state, dispatch } = useContext(AppContext);
   const [modal, setModal] = useState(false);

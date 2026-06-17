@@ -5,6 +5,7 @@ import { EMOJIS } from '../constants';
 import { getName } from '../utils/helpers';
 import './GroupModal.css';
 
+
 export default function GroupModal({ initial, onSave, onClose }) {
   const { state } = useContext(AppContext);
   const [name, setName] = useState(initial?.name || '');

@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react';
 import { AppContext } from '../context/AppContext';
 import './Activity.css';
 
+
 export default function Activity() {
   const { state } = useContext(AppContext);
   const [filter, setFilter] = useState('all');

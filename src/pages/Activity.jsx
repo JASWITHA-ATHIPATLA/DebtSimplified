@@ -13,7 +13,6 @@ export default function Activity() {
     <div className="page-inner">
       <h1 className="pg-title">Activity</h1>
       <p className="pg-sub">Full history of all actions</p>
-
       <div className="tabs" style={{ maxWidth: 400 }}>
         {[
           ['all', 'All'],

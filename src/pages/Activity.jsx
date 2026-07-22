@@ -8,7 +8,6 @@ export default function Activity() {
   const [filter, setFilter] = useState('all');
 
   const filtered = filter === 'all' ? state.activity : state.activity.filter(a => a.type === filter);
-
   return (
     <div className="page-inner">
       <h1 className="pg-title">Activity</h1>
